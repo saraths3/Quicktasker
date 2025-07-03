@@ -62,20 +62,7 @@ Options:
     --dry-run     Displays what will be done without executing
     --help        Prints usage instructions
 
----------------------------------------
-Project Structure
----------------------------------------
-
-quicktasker/
-├── quicktasker.sh         -> Main entry script
-├── modules/
-│   ├── setup.sh           -> Installs basic tools
-│   └── cleanup.sh         -> Performs system cleanup
-├── utils/
-│   └── pkgman.sh          -> Handles cross-distro package installation
-└── .quicktasker.conf      -> Optional user configuration file
-
----------------------------------------
+----------------------------------------
 How It Works
 ---------------------------------------
 
